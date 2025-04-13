@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tasktracker"
+version = "0.1.0"
+description = "A CLI task tracker"
+authors = ["Suman <62769221+sumankrome@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+click = "^8.1.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+task = "tasktracker:cli"
